@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+    <title>MyChat</title>
+</head>
+<body>
+
+    <section id="welcome-container">
+        <h1>Bem-vindo ao MyChat</h1>
+        <form id="chat">
+            <input type="text" name="nick" placeholder="Insira seu nome" id="nick" />
+        </form>
+        <button id="welcome-btn" title="Enviar" onclick="">Enviar</button>
+    </section>
+    <section id="chat-container">
+        <h1>MyChat</h1>
+        <div>
+            <pre id="messages"></pre>
+        </div>
+        <input type="text" name="msg" id="messageBox" placeholder="Escreva sua mensagem aqui" />
+        <button id="send" title="Enviar">Enviar</button>
+    </section>
+
+    <script defer src="./index.js"></script>
+</body>
+</html>

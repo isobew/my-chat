@@ -1,0 +1,14 @@
+{
+  "name": "ws",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2",
+    "ws": "^8.5.0"
+  }
+}
